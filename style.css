@@ -8,6 +8,7 @@ body {
   background-color: #ffffff;
 }
 
+/*the discount pannel at the top*/
 .top-pan {
   display: flex;
   justify-content: space-between;
@@ -29,3 +30,169 @@ body {
   margin-left: 50px;
   width: 100%;
 }
+
+.pan-content a{
+  text-decoration: underline rgb(88, 88, 125);
+  color: white;
+}
+
+.descri{
+  color: #b3afaf;
+  font-size: 14px;
+}
+
+.discount p{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+
+ #language{
+  background-color: black;
+  color: white;
+  border:#b3afaf00;
+  font-family: sans-serif;
+}
+
+/*header styles*/
+
+.header-container{
+  padding: 20px 10px;
+  height: 60px;
+  background-color: #ffffff;
+  border: #837f7f62  1px solid;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.inside-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ margin-top: 25px;
+ width: 80%;
+
+}
+
+.ul ul{
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+  
+}
+
+.search-cart{
+  display: flex;
+  align-items: center;
+}
+
+.exclusive h2 a{
+  text-decoration: none;
+  color:black;
+}
+
+.ul ul li a{
+text-decoration: none;
+color: rgb(74, 73, 73);
+}
+
+.ul ul li a:hover{
+  text-decoration: underline;
+}
+
+
+.search-container {
+  position: relative;
+  width: 300px;
+}
+
+.search-container input[type="text"] {
+  width: 243px;
+  padding: 7px 30px 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  background-color: #e0e0e0;
+}
+
+.search-cart{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.like-cart{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 23px;
+}
+
+
+
+.search-container .search-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #888;
+  pointer-events: none;
+}
+
+/*section of iphone*/
+.iphone-home {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #ffffff;
+  padding:10px;
+  margin-left: 60px;
+  
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 30px;
+ 
+}
+
+.sidebar ul li {
+  margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar ul li a::after {
+  content: '>';
+  font-size: 16px;
+  
+}
+
+.slider {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.slider img {
+  width:75%;
+  height: auto;
+object-fit: cover;
+padding: 20px;
+}
+
+/*second section*/
+
