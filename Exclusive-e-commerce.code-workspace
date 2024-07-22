@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../BookStore/Book-store"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Exclusive-e-commerce"
+  }
+}
