@@ -8,8 +8,11 @@ body {
   background-color: #ffffff;
 }
 
-hr{
-  
+p {
+  font-size: 18px;
+}
+
+hr {
   display: flex;
   color: #6d6969;
   margin-top: 4rem;
@@ -143,15 +146,13 @@ hr{
   pointer-events: none;
 }
 
-.all-content{
-  margin: 0 5rem
-  ;
+.all-content {
+  margin: 0 9rem;
 }
 
 /*section of iphone*/
 .iphone-home {
   display: flex;
-  
 }
 
 .sidebar {
@@ -202,7 +203,6 @@ hr{
 /*second section*/
 
 .secnd {
-  margin: 0 5rem;
   margin-top: 90px;
 }
 #container {
@@ -399,13 +399,22 @@ hr{
   margin-top: 50px;
 }
 
-.img i{
+.img i {
   font-size: 100px;
 }
 
-
-.pics{
+.pics {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
+}
+
+.month {
+  display: flex;
+}
+
+/*Speaker section*/
+.speaker img {
+  width: 100%;
+  object-fit: cover;
 }
