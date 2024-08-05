@@ -6,6 +6,7 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #ffffff;
+  
 }
 
 p {
@@ -27,6 +28,7 @@ hr {
   width: 100%;
   background-color: black;
   color: white;
+  font-size: 20px;
 }
 
 .top-pan .pan-content {
@@ -36,7 +38,7 @@ hr {
   justify-content: center;
   gap: 200px;
   height: 24px;
-
+ 
   margin-left: 50px;
   width: 100%;
 }
@@ -271,7 +273,7 @@ hr {
 }
 
 .HAVIT {
-  background-color: #88888835;
+  background-color: #bbb9b935;
   width: 250px;
   height: 190px;
   padding: 10px;
@@ -289,9 +291,9 @@ hr {
   border-radius: 2px;
 }
 .havit {
-  background-color: #f1f1f1;
+  background-color: #e9e4e4;
   width: 238px;
-  padding: 4px;
+  padding: 10px;
   border-radius: 5px.3;
 }
 .parts {
@@ -365,6 +367,10 @@ hr {
   display: flex;
   gap: 20px;
   margin-top: 50px;
+  
+}
+.one{
+  
 }
 .more button {
   background-color: #ff4d4d;
@@ -415,16 +421,15 @@ hr {
 
 .pics a {
   display: inline-block;
-  transition: transform 0.3s ease, background-color 0.3s ease, height 0.2s ease,
-    border 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s ease, border 0.3s ease;
 }
 
 .pics a:hover {
-  background-color: rgba(146, 1, 1, 0.493);
+  background-color: rgba(146, 1, 1, 0.1);
   height: 144px;
-  border: #4203034d solid 1px;
+  border: #4203030c solid 1px;
   border-radius: 10px;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 /*Speaker section*/
@@ -435,4 +440,73 @@ hr {
 .speaker img {
   width: 100%;
   object-fit: cover;
+}
+
+/*our products section*/
+
+.para-products{ 
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.para-products p{
+  font-weight: bold;
+  font-size: 30px;
+}
+ 
+.img-product{
+display: flex;
+gap: 40px;
+background-color: #e4e4e4;
+width: 200px;
+justify-content: space-between ;
+  padding: 30px;
+}
+
+.img-product img{
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+}
+
+.like{
+  display: flex;
+  flex-direction: column;
+}
+
+.product-container {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 250px;
+  padding: 20px;
+  background-color: #d8d8d8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.product-container img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.icon {
+  background-color: #f5f2f2;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.icon:hover {
+  background-color: #ddd;
 }
