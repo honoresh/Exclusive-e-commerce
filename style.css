@@ -294,7 +294,10 @@ hr {
   background-color: #e9e4e4;
   width: 238px;
   padding: 10px;
-  border-radius: 5px.3;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px
 }
 .parts {
   display: flex;
@@ -340,7 +343,7 @@ hr {
 .info {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 18px;
 }
 
 .info .name {
@@ -510,3 +513,54 @@ justify-content: space-between ;
 .icon:hover {
   background-color: #ddd;
 }
+
+.parts-pro{
+  display: flex;
+  justify-content: space-between;
+ 
+  
+}
+
+.parts-pro img{
+  margin: 30px;
+  align-items: center;
+  position: relative;
+  left: 20px;
+}
+
+.diff{
+  display: flex;
+  gap: 20px;
+  position: relative;
+  
+  align-items: center;
+}
+
+.diff .brac{
+  position: relative;
+  bottom: 3px;
+  color: #6d6969;
+  font-weight: 600;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.computer{
+  align-items: center; 
+}
+
+.parts-pro1{
+  display: flex;
+  justify-content: space-between;
+ height: 230px;
+  
+}
+
+.last{
+  
+}
+
