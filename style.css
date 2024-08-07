@@ -9,6 +9,7 @@ body {
   
 }
 
+
 p {
   font-size: 18px;
 }
@@ -150,6 +151,10 @@ hr {
 
 .all-content {
   margin: 0 9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10
+  0px;
 }
 
 /*section of iphone*/
@@ -438,6 +443,8 @@ hr {
 /*Speaker section*/
 .speaker {
   margin-top: 50px;
+  
+  
 }
 
 .speaker img {
@@ -447,10 +454,13 @@ hr {
 
 /*our products section*/
 
-.para-products{ 
+
+.Our-products{ 
 display: flex;
 flex-direction: column;
 gap: 30px;
+
+ 
 }
 .para-products p{
   font-weight: bold;
@@ -566,7 +576,8 @@ justify-content: space-between ;
 }
 
 .last{
-  margin-top: 30px;
+position: relative;
+top: 100px;
 }
 
 .posts{
@@ -706,6 +717,8 @@ justify-content: space-between ;
 .icons{
   margin: 50px 60px;
   padding: 50px;
+  position: relative;
+  top: 100px;
 }
 
 .svg{
@@ -720,6 +733,99 @@ justify-content: space-between ;
   gap: 10px;
 }
 
-.un,.deux,.troix p{
-  font-sizeW
+footer{
+  background-color: #000;
+  color: #ccc;
+  padding: 10rem;
+  position: relative;
+  top: 100px;
+
 }
+
+.footer{
+  display: flex;
+  gap: 70px;
+  height: 200hpx;
+}
+
+footer .subscribe{
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+footer .subscribe .email{
+  display:flex;
+ 
+
+}
+
+footer .subscribe .email input{
+  padding: 10px;
+  color: whitesmoke;
+  background-color: #0000;
+  border: 1px solid rgb(158, 154, 158);
+  width: 150px;
+}
+
+footer .subscribe .email svg{
+  position: relative;
+  top: 5px;
+  right: 35px;
+}
+
+
+
+.support{
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.account,.Quick,.Download{
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.Download span{
+  display: flex;
+  gap: 10px;
+}
+
+.Download span .sideapp{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+  bottom: 5px;
+}
+
+.social{
+  position: relative;
+  right: 100px;
+  top: 10px;
+}
+
+.copy
+{
+  color: #dddddd49;
+  display: flex;
+  
+  justify-content: center;
+  height: 0px;
+  margin: 0;
+}
+
+hr{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
